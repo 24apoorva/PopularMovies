@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="url_error_message">Problem building the Url.</string>
+
+    <string name="http_request_error">Problem retrieving the earthquake JSON results.</string>
+
+    <string name="http_error">Problem making the HTTP request.</string>
+
+    <string name="error_code">Error response code:</string>
+
+    <string name="movies_parsing_error">Problem parsing the movies JSON results</string>
+    <string name="image_description">Poster of the movie</string>
+    <string name="sample_original_title">Avengers: Infinity War</string>
+    <string name="user_rating">User Rating : </string>
+    <string name="sample_vote_average">8.3</string>
+    <string name="overview">Overview</string>
+    <string name="sample_overView">As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</string>
+    <string name="sample_release_date">2018–04-25</string>
+    <string name="release_date">Release Date : </string>
+    <string name="detail_error_message_moviedata">Movie data not available</string>
+    <string name="sort_by">Sort By</string>
+    <string name="popular">Popular Movies</string>
+    <string name="highest_rated">Highest Rated</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="path_poster" translatable="false">http://image.tmdb.org/t/p/w185</string>
+
+</resources>
