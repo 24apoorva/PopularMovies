@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_avatar"
+            android:padding="@dimen/dp_8"
+            android:contentDescription="@string/cauthor_iconc" />
+
+        <TextView
+            android:id="@+id/author_tv"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_spacing"
+            android:layout_weight="1"
+            tools:text = "@string/author_name"/>
+
+    </LinearLayout>
+    <com.ms.square.android.expandabletextview.ExpandableTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/expand_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        expandableTextView:maxCollapsedLines="2"
+        expandableTextView:animDuration="200">
+        <TextView
+            android:id="@id/expandable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/review_text"/>
+        <ImageButton
+            android:id="@id/expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/dp_16"
+            android:paddingLeft="@dimen/dp_16"
+            android:paddingBottom="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_5"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/list_item_selector"
+            android:contentDescription="@string/expand_collapse_description" />
+    </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+
+
+
+</LinearLayout>

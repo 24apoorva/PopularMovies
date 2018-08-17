@@ -4,30 +4,20 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Movies implements Parcelable{
-    private String mPosterPath;
-    private String mOriginalTitle;
-    private String mOverView;
-    private double mUserRating;
-    private String mReleaseDate;
-    private String mBackDropPath;
+    private String mMoviePosterPath;
+    private int mMovieId ;
 
 
-    Movies(String path, String backDropPath, String title, String overView, double rating, String releaseDate) {
-        mPosterPath = path;
-        mBackDropPath = backDropPath;
-        mOriginalTitle = title;
-        mOverView = overView;
-        mUserRating = rating;
-        mReleaseDate = releaseDate;
+    public Movies(String moviePosterPath, int movieId) {
+        mMoviePosterPath = moviePosterPath;
+        mMovieId = movieId;
+
     }
 
-    private Movies(Parcel in) {
-        mPosterPath = in.readString();
-        mOriginalTitle = in.readString();
-        mOverView = in.readString();
-        mUserRating = in.readDouble();
-        mReleaseDate = in.readString();
-        mBackDropPath = in.readString();
+    protected Movies(Parcel in) {
+        mMoviePosterPath = in.readString();
+        mMovieId = in.readInt();
+
     }
 
     public static final Creator<Movies> CREATOR = new Creator<Movies>() {
@@ -42,30 +32,13 @@ public class Movies implements Parcelable{
         }
     };
 
-    public String getOriginalTitle() {
-        return mOriginalTitle;
+    public int getMovieId() {
+        return mMovieId;
     }
 
-    public double getUserRating() {
-        return mUserRating;
+    public String getMoviePosterPath() {
+        return mMoviePosterPath;
     }
-
-    public String getmBackDropPath() {
-        return mBackDropPath;
-    }
-
-    public String getOverView() {
-        return mOverView;
-    }
-
-    public String getPosterPath() {
-        return mPosterPath;
-    }
-
-    public String getReleaseDate() {
-        return mReleaseDate;
-    }
-
 
     @Override
     public int describeContents() {
@@ -74,11 +47,7 @@ public class Movies implements Parcelable{
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(mPosterPath);
-        dest.writeString(mOriginalTitle);
-        dest.writeString(mOverView);
-        dest.writeDouble(mUserRating);
-        dest.writeString(mReleaseDate);
-        dest.writeString(mBackDropPath);
+        dest.writeString(mMoviePosterPath);
+        dest.writeInt(mMovieId);
     }
 }

@@ -1,27 +1,35 @@
 <resources>
     <string name="app_name">Popular Movies</string>
-    <string name="url_error_message">Problem building the Url.</string>
-
-    <string name="http_request_error">Problem retrieving the earthquake JSON results.</string>
-
+    <string name="http_request_error">Problem retrieving the JSON results.</string>
     <string name="http_error">Problem making the HTTP request.</string>
-
     <string name="error_code">Error response code:</string>
-
     <string name="movies_parsing_error">Problem parsing the movies JSON results</string>
     <string name="image_description">Poster of the movie</string>
     <string name="sample_original_title">Avengers: Infinity War</string>
-    <string name="user_rating">User Rating : </string>
-    <string name="sample_vote_average">8.3</string>
-    <string name="overview">Overview</string>
+    <string name="sample_vote_average">4.5</string>
     <string name="sample_overView">As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</string>
-    <string name="sample_release_date">2018–04-25</string>
+    <string name="sample_release_date">April 25,2018</string>
     <string name="release_date">Release Date : </string>
+    <string name="movie_details_title">Movie Details</string>
     <string name="detail_error_message_moviedata">Movie data not available</string>
-    <string name="sort_by">Sort By</string>
     <string name="popular">Popular Movies</string>
     <string name="highest_rated">Highest Rated</string>
     <string name="no_internet">No Internet Connection</string>
-    <string name="path_poster" translatable="false">http://image.tmdb.org/t/p/w185</string>
-
+    <string name="title_highest_rated_movies">Highest Rated Movies</string>
+    <string name="fav_add">Add to Favourites</string>
+    <string name="fav_rem">Remove from Favorites</string>
+    <string name="trailer">TRAILERS</string>
+    <string name="no_trailer_data">Trailers data not available</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="no_reviews_data">No reviews for this movie</string>
+    <string name="overView">OVERVIEW</string>
+    <string name="no_fav_movies">No Movies in Favorite List</string>
+    <string name="fav_movies_title">Favourite Movies</string>
+    <string name="author_name">garethmb</string>
+    <string name="review_text">Back in 1977 I remember going into the original Cine Capri to see “Star Wars” with some friends. I was very young but little did I know that movie would change my life and put me on the path that I am now. Over the decades that have followed I have read the books and comics, played with the toys, played the video games, and eagerly watched any new film or television show related to the franchise.\n\nThe fact that Disney has put out a new film every years since “Star Wars: The Force Awakens” is great for fans like me as those three year waits; to say nothi</string>
+    <string name="paly_image_description">play image</string>
+    <string name="cauthor_iconc">Author icon</string>
+    <string name="expand_collapse_description">Expand Collapse button</string>
+    <string name="new_db">Creating new db instance</string>
+    <string name="get_db">Getting db instance</string>
 </resources>

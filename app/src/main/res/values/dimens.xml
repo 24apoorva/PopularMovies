@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="column_width">90dp</dimen>
+    <dimen name="column_width">170dp</dimen>
     <dimen name="activity_spacing">10dp</dimen>
     <dimen name="normal_textSize">16sp</dimen>
-    <dimen name="min_height_activity_main">88dp</dimen>
-    <dimen name="divider_height_activity_main">2dp</dimen>
     <dimen name="image_height">200dp</dimen>
     <dimen name="zero_dp">0dp</dimen>
-    <dimen name="padding_5">5dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
     <dimen name="dp65">65dp</dimen>
     <dimen name="dp50">50dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="image_width">160dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="image_32dp">32dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_34">34dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
 </resources>
