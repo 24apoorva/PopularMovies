@@ -3,9 +3,12 @@ This project is an Android application created for Udacity Android Nanodegree Pr
 
 ## Features
 - Displays most popular movies and highest rated movies.
-- Watch movie Trailers and read user review.
-- Provides movie details and ratings.
-- User can add movies to their favorites list and access them offline
+- User can changes the sort criteria between most popular, highest rated, and favoritesmovies.
+- User can acess movie Trailers, Movie detils like overview of the movie, rating of the movie and user review.
+- User can add movies to their favorites list and access them offline.
+
+## Android Architecture Components
+Database is implemented using Room.LiveData is used to observe changes in the database and update the UI accordingly.Database is not re-queried unnecessarily after rotation. Cached LiveData from ViewModel is used instead.
 
 ## Requirements
 This application uses themoviedb.org API to get movie information. User must provide an API key in order to build the app.
