@@ -10,6 +10,19 @@ This project is an Android application created for Udacity Android Nanodegree Pr
 ## Requirements
 This application uses themoviedb.org API to get movie information. User must provide an API key in order to build the app.
 
+## Application Images
+
+<p align="center">
+   <img src="https://github.com/24apoorva/PopularMovies/blob/master/menu.jpeg" width="250" title="Home page with menu">
+   <img src="https://github.com/24apoorva/PopularMovies/blob/master/highly%20rated_movies.jpeg" width="250" title="highest rated movies">
+   <img src="https://github.com/24apoorva/PopularMovies/blob/master/fav.jpeg" width="250" title="Fav movies">
+   <img src="https://github.com/24apoorva/PopularMovies/blob/master/details_overview.jpeg" width="250" title="Movie details page_overview fragment">
+   <img src="https://github.com/24apoorva/PopularMovies/blob/master/details_rating.jpeg" width="250" title="Detailspage with rating fragment">
+   <img src="https://github.com/24apoorva/PopularMovies/blob/master/details_trailer.jpeg" width="250" title="Details_page with trailers fragment">
+   <img src="https://github.com/24apoorva/PopularMovies/blob/master/landscapemode.jpeg" width="350" title="Details_page landscapemode">
+</p>
+
+
 ## License
 
 MIT License
